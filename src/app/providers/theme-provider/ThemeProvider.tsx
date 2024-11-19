@@ -1,5 +1,5 @@
 import { FC, useState } from "react";
-import { ThemeContext, ThemeEnum } from "./context";
+import { ThemeContext, ThemeEnum } from "./lib/context";
 
 const defaultTheme =
   (localStorage.getItem("theme") as ThemeEnum) || ThemeEnum.LIGHT;

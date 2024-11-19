@@ -1,4 +1,4 @@
-export const classNames = (
+export const classnames = (
   cls: string,
   mods?: Record<string, boolean>,
   additional?: string[],
